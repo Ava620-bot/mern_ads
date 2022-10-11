@@ -1,0 +1,78 @@
+
+.link >li> a{
+    text-decoration: none
+}
+ul{
+    list-style-type: none;
+}
+
+.searchBar{
+  
+    align-items: center;
+    max-width: 992px;
+      margin: auto;
+    }
+    .searchBar__container{
+    
+    
+      display: grid;
+     
+    grid-template-columns: repeat(3, 1fr);
+     
+    grid-auto-rows: auto;
+     
+    grid-gap: 1rem;
+    color: whitesmoke;
+    }
+    .searchBar__items{
+      border: 2px solid #e7e7e7;
+     
+      border-radius: 4px;
+       
+      padding: .5rem;
+     
+       
+      margin-bottom: 1rem;
+    }
+    .searchBar__items> img{
+       width: 300px;
+       height: 200px;
+      
+    }
+    
+    form{
+      margin-left: 30rem;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+    input{
+      background-color: transparent;
+      font-size: 1.5rem;
+      outline: none;
+      padding: 1.25rem 1rem;
+      color: slateblue;
+      border: 0.1rem solid slategray;
+      font-family: inherit;
+      margin-right: 1rem;
+      border-radius: 0.625rem;
+     }
+     input::placeholder{
+      color: slategray;
+      font-size: 1.5rem;
+     }
+    button{
+      font-family: inherit;
+      outline: none;
+      font-size: 1.5rem;
+      background-color: #fff;
+      padding: 1.25rem 1rem;
+      border: 0.1rem solid slategray;
+      border-radius: 0.625rem;
+      cursor: pointer;
+      
+    
+    
+    }
+    .btn{
+        font-size: small;
+    }
